@@ -2,12 +2,13 @@ import SectionTitle from "../../components/SectionTitle/SectionTitle";
 
 const WhatWeAre = () => {
   return (
-    <div className="container mx-auto px-4 my-20">
+    <div className="container mx-auto px-4 md:my-20 my-10">
       <SectionTitle
         title="Who We Are"
         text="Lorem ipsum dolor, sit amet consectetur adipisicing."
+        color="text-gray-600"
       />
-      <p className="text-center text-lg text-gray-600 font-medium  mt-10">
+      <p className="md:text-center text-ellipsis md:text-lg text-base text-gray-600 font-medium  mt-10">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime
         optio vero unde laborum quo libero id nihil aliquam, quam repellat
         obcaecati necessitatibus tenetur. Excepturi, asperiores corrupti.

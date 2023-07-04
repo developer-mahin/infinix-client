@@ -1,8 +1,11 @@
+import OurServices from "./OurServices";
+import ServiceOne from "./ServiceOne";
 
 const Service = () => {
     return (
         <div>
-            <h1>Service</h1>
+            <ServiceOne/>
+            <OurServices/>
         </div>
     );
 };

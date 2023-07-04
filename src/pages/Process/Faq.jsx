@@ -11,7 +11,7 @@ const Item = ({ title, children }) => {
         className="flex items-center justify-between w-full p-4 focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <p className="text-lg font-medium">{title}</p>
+        <p className="lg:text-lg text-base font-medium">{title}</p>
         <div className="flex items-center justify-center w-8 h-8 border rounded-full">
           <svg
             viewBox="0 0 24 24"
@@ -33,7 +33,7 @@ const Item = ({ title, children }) => {
       </button>
       {isOpen && (
         <div className="p-4 pt-0">
-          <p className="text-gray-700">{children}</p>
+          <p className="lg:text-base text-sm text-gray-700">{children}</p>
         </div>
       )}
     </div>
@@ -42,12 +42,12 @@ const Item = ({ title, children }) => {
 
 const Faq = () => {
   return (
-    <div className="bg-[#F8F8F8] mb-20 pb-10">
-      <div className="px-4 py-16 mx-auto container ">
-        <h2 className="text-5xl font-bold text-gray-600 mb-3 text-center">
+    <div className="bg-[#F8F8F8] md:mb-20 mb-10 md:pb-10 pb-5">
+      <div className="px-4 md:py-16 py-8  mx-auto container ">
+        <h2 className="lg:text-5xl text-2xl font-bold text-gray-600 mb-3 text-center">
           Frequently Asked Questions
         </h2>
-        <div className="grid grid-cols-2 gap-40 mt-10">
+        <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-40 md:gap-5 mt-10">
           <div className="space-y-4">
             <Item title="The quick, brown fox jumps over a lazy dog?">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem

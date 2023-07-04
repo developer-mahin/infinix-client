@@ -10,9 +10,9 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="container mx-auto mb-10">
-        <div className="grid grid-cols-12">
-          <div className="col-span-4 text-center">
+      <div className="container mx-auto mb-10 px-4">
+        <div className="grid lg:grid-cols-12 grid-cols-1">
+          <div className="col-span-4 lg:text-center text-start">
             <Link to="/" className="inline-flex items-center">
               <h2 className="text-4xl font-bold text-red-500">LOGO</h2>
             </Link>
@@ -22,7 +22,7 @@ const Footer = () => {
             </p>
 
             <div>
-              <div className="flex items-center justify-center gap-4 mt-4">
+              <div className="flex items-center lg:justify-center justify-start gap-4 mt-4">
                 <a
                   className="text-center p-2 rounded-full bg-gray-700 text-lg text-white hover:bg-gray-600 duration-150 hover:text-white"
                   href="https://www.facebook.com/mahin.khan.77398/"
@@ -66,8 +66,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-span-8 flex justify-around">
-            <div>
+          <div className="col-span-8 md:flex lg:justify-around md:justify-between lg:mt-0 mt-5">
+            <div className="lg:mt-0 mt-5">
               <h2 className="text-xl font-semibold text-gray-700">About Us</h2>
               <div>
                 <Link to="/" className="block text-gray-600 font-medium my-3">
@@ -84,7 +84,7 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div>
+            <div className="lg:mt-0 mt-5">
               <h2 className="text-xl font-semibold text-gray-700">Community</h2>
               <div>
                 <Link to="/" className="block text-gray-600 font-medium my-3">
@@ -98,7 +98,7 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div>
+            <div className="lg:mt-0 mt-5">
               <h2 className="text-xl font-semibold text-gray-700">Contact</h2>
               <div>
                 <a
@@ -118,16 +118,16 @@ const Footer = () => {
 
       <div className="py-8 border-t-2 border-gray-500">
         <div className="container mx-auto px-4 flex items-center justify-between">
-          <div className="flex items-center gap-20">
-            <Link className="text-lg font-medium text-gray-600" to="/">
+          <div className="flex md:items-center lg:gap-20 gap-3 md:flex-row flex-col ">
+            <Link className="md:text-lg text-sm font-medium text-gray-600" to="/">
               Privacy Policy
             </Link>
-            <Link className="text-lg font-medium text-gray-600" to="/">
+            <Link className="md:text-lg text-sm font-medium text-gray-600" to="/">
               Terms & Condition
             </Link>
           </div>
           <div>
-            <p className="text-lg font-medium text-gray-600">
+            <p className="md:text-lg text-sm font-medium text-gray-600">
               Lorem ipsum dolor sit amet.
             </p>
           </div>

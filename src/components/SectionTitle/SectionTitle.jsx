@@ -3,10 +3,14 @@ const SectionTitle = ({ title, subTitle, text, color }) => {
     <div className="flex items-center justify-center text-center">
       <div>
         {subTitle && (
-          <h2 className={`${color} text-4xl font-bold`}>{subTitle}</h2>
+          <h2 className={`text-red-500 lg:text-4xl font-bold`}>{subTitle}</h2>
         )}
-        <h1 className="text-5xl font-bold text-gray-600 mb-3">{title}</h1>
-        <p className="text-xl font-medium text-gray-600 mt-2 lg:w-[700px] mx-auto">
+        <h1 className={`${color} lg:text-5xl text-2xl font-bold mb-3`}>
+          {title}
+        </h1>
+        <p
+          className={`${color} lg:text-xl  text-lg font-medium mt-2 lg:w-[700px] mx-auto`}
+        >
           {text}
         </p>
       </div>

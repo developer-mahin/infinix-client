@@ -1,4 +1,4 @@
-const ContactFirst = () => {
+const ServiceOne = () => {
   return (
     <div className="md:my-20 my-10">
       <div className="container mx-auto px-4">
@@ -31,4 +31,4 @@ const ContactFirst = () => {
   );
 };
 
-export default ContactFirst;
+export default ServiceOne;

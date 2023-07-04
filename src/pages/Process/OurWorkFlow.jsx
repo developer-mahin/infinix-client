@@ -59,29 +59,30 @@ const OurWorkFlow = () => {
   ];
 
   return (
-    <div className="mb-20">
+    <div className="md:mb-20 mb-5">
       <div className="container mx-auto px-4">
         <SectionTitle
           title="Our Workflow"
           text="Lorem ipsum dolor sit amet consectetur adipisicing"
+          color="text-gray-600"
         />
 
-        <div className="grid grid-cols-3 gap-10 justify-items-center mt-14">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-3 gap-10 justify-items-center mt-14">
           {fakeData.map((data, i) => (
             <div key={i}>
-              <div className="flex items-center gap-10">
+              <div className="flex items-center lg:gap-10 gap-5">
                 <div
-                  className={`w-[70px] h-[70px] rounded-full ${data.color} flex items-center justify-center text-center`}
+                  className={`lg:w-[70px] w-[50px] lg:h-[70px] h-[50px] rounded-full ${data.color} flex items-center justify-center text-center`}
                 >
                   <h1 className="text-2xl font-semibold text-white">
                     0{data.count}
                   </h1>
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-600">
+                  <h2 className="lg:text-2xl text-xl font-bold text-gray-600">
                     {data.title}
                   </h2>
-                  <p className="text-lg text-gray-600 font-medium lg:w-[300px]">
+                  <p className="lg:text-lg text-base text-gray-600 font-medium lg:w-[300px]">
                     {data.des}
                   </p>
                 </div>

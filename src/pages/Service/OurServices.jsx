@@ -1,7 +1,7 @@
-import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import ImportantDevicesIcon from "@mui/icons-material/ImportantDevices";
+import SectionTitle from "../../components/SectionTitle/SectionTitle";
 
-const ServiceSection = () => {
+const OurServices = () => {
   return (
     <div className="md:my-20 my-10">
       <div className="container mx-auto px-4">
@@ -209,4 +209,4 @@ const ServiceSection = () => {
   );
 };
 
-export default ServiceSection;
+export default OurServices;

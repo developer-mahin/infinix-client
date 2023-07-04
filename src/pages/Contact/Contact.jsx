@@ -7,9 +7,9 @@ const Contact = () => {
   return (
     <div>
       <ContactFirst />
-      <ContactForm/>
+      <ContactForm />
       <Faq />
-      <ContactInfo/>
+      <ContactInfo />
     </div>
   );
 };

@@ -1,8 +1,8 @@
 const GetInTouch = () => {
   return (
-    <div className="py-20">
+    <div className="md:py-20 py-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 gap-40 items-center">
+        <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-40 gap-0 items-center">
           <div>
             <img
               src="https://static.vecteezy.com/system/resources/previews/004/491/053/original/children-learn-on-computers-concept-for-web-banner-boy-and-girl-watching-video-lessons-doing-homework-online-modern-person-scene-illustration-in-flat-cartoon-design-with-people-characters-vector.jpg"

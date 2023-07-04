@@ -1,15 +1,15 @@
 const KnowAbout = () => {
   return (
-    <div>
+    <div className="md:my-20 my-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2">
+        <div className="grid lg:grid-cols-2 grid-cols-1">
           <div className="flex items-center justify-center">
             <div>
-              <h2 className="text-6xl font-bold text-gray-600 mb-5">
+              <h2 className="lg:text-6xl text-3xl font-bold text-gray-600 mb-5">
                 Provide your best <br />
                 Best Service
               </h2>
-              <p className="mb-10 text-lg font-medium text-gray-600">
+              <p className="lg:mb-10 mb-7 lg:text-lg text-base font-medium text-gray-600">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
                 sunt aliquid mollitia nesciunt aut repudiandae laudantium eaque
                 temporibus fugit nihil!
